@@ -1,0 +1,5 @@
+tipo,id,nombre,precio,stock,atributo_extra
+Electronico,P001,Laptop HP,3500900.0,25,7
+Electronico,P002,Mouse USB,150000.0,45,6
+Alimenticio,P003,Manzana Roja,3500.0,20,31/05/2026
+Alimenticio,P004,Pan Integral,4500.0,30,15/05/2026

@@ -33,3 +33,4 @@ mvnw.cmd
 # BD local
 *.db
 *.sqlite
+/dist/

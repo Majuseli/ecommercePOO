@@ -1,0 +1,3 @@
+tipo,id,nombre,email,contrasenia
+Administrador,A001,Juan Lopez,juan@mail.com,admin123
+Cliente,C001,Eric Perez,eric@mail.com,1234
