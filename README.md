@@ -6,8 +6,8 @@
 
 | Nombre | GitHub |
 |--------|--------|
-| Merly Martinez | -- |
-| Eric Pérez | --|
+| Merly Martinez | Merre1013 |
+| Eric Pérez | EricXanderP|
 | Eliana Vertel | Majuseli |
 
 ---
