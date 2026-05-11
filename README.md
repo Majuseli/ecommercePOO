@@ -54,7 +54,7 @@ Ejecutar la clase principal.
 
 ## 📐 Diagrama de casos de uso
 
-![Casos de uso](docs/uml/casos-de-uso.png)
+![Casos de uso](docs/uml/DiagramaCasosUso.png)
 
 ---
 
