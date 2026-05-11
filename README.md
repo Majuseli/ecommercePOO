@@ -30,8 +30,14 @@ Ecommerce es una aplicacion de escritorio desarollada en Java que permite gestio
 git clone https://github.com/Majuseli/EcommercePOO.git
 
 # 2. Abrir el proyecto en NetBeans.
-Compilar el proyecto.
-Ejecutar la clase principal.
+Iniciar NetBeans IDE.
+
+# 3. Compilar el proyecto.
+Seleccionar Run → Clean and Build Project o F11
+
+# 4. Ejecutar el sistema.
+Ubicar la clase principal dentro del paquete y ejecutarla (LoginUI)
+
 
 ---
 
@@ -48,13 +54,13 @@ Ejecutar la clase principal.
 
 ## 🧩 Diagrama de clases UML
 
-![Diagrama de clases](docs/uml/diagrama-clases.png)
+![Diagrama de clases](docs/DiagramaUML.png)
 
 ---
 
 ## 📐 Diagrama de casos de uso
 
-![Casos de uso](docs/uml/DiagramaCasosUso.png)
+![Casos de uso](docs/DiagramaCasosUso.png)
 
 ---
 
@@ -75,12 +81,12 @@ Ejecutar la clase principal.
 
 | Concepto | Clase / método donde se aplica |
 |----------|-------------------------------|
-| Herencia |Usuario | Cliente / Administrador
-| Encapsulación |Todas | Atributos privados
-| Polimorfismo |ProductoElectronico |calcularPrecioFinal()
-| Abstracción |Jframe |login()
-| Colecciones |Carrito |agregarProducto()
-| Excepciones |StockInsuficienteException |try {}catch(){}
+| Herencia |Usuario / Cliente - Administrador |
+| Encapsulación |Todas / Atributos privados | 
+| Polimorfismo |ProductoElectronico / calcularPrecioFinal() |
+| Abstracción |Jframe / login()|
+| Colecciones |Carrito / agregarProducto()|
+| Excepciones |StockInsuficienteException / try {}catch(){}|
 
 ---
 
