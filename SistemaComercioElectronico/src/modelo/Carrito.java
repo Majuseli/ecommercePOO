@@ -42,6 +42,9 @@ public class Carrito {
                 return;
             }
         }
+
+        // Descontar stock
+        producto.setStock(producto.getStock() - cantidad);
         
         // Si no existe, agregar nuevo item
         items.add(new ItemCarrito(producto, cantidad));
