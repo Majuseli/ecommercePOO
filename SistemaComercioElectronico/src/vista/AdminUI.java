@@ -170,6 +170,12 @@ public class AdminUI extends JFrame {
             double precio = Double.parseDouble(txtPrecio.getText().trim());
             int stock = Integer.parseInt(txtStock.getText().trim());
             String atributo = txtAtributo.getText().trim();
+
+            if (precio <= 0) {
+                JOptionPane.showMessageDialog(this,
+                        "El precio no puede ser negativo, ni cero");
+                return;
+            }
             
             if (id.isEmpty() || nombre.isEmpty() || atributo.isEmpty()) {
                 JOptionPane.showMessageDialog(this, "Complete todos los campos");
