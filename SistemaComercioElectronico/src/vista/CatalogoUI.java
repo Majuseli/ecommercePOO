@@ -130,6 +130,7 @@ public class CatalogoUI extends JFrame {
         
         try {
             cliente.getCarrito().agregarItem(producto, cantidad);
+            modeloTabla.setValueAt(producto.getStock(), filaSeleccionada, 3);
             JOptionPane.showMessageDialog(this, "✓ " + cantidad + " x " + producto.getNombre() + " agregado al carrito");
             actualizarContadorCarrito();
         } catch (StockInsuficienteException e) {
